@@ -162,9 +162,3 @@ Expected output: `All tests passed! Backend is ready for integration.`
 - **Validation:** Pydantic
 - **WebSocket:** FastAPI native
 - **Database:** In-memory (dev) → PostgreSQL (prod)
-
-## Team
-
-- Backend: Yu Lo, Ryan Hou, Haochen Zhao
-- AI/Data: Mingzhen Cai, Bo-Han Chang Chien, Yuyang Lu
-- Frontend: Ryan Hou, Haochen Zhao, Yu Lo
