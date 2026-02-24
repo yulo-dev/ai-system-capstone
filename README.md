@@ -46,8 +46,8 @@ astra-backend/
 │   └── models/
 │       └── __init__.py         # Placeholder for future SQLAlchemy models
 ├── docs/
-│   ├── API_CONTRACT.md         # Full API contract for Frontend + AI/Data team
-│   └── FRONTEND_INTEGRATION.md # Step-by-step integration guide for Frontend
+│   ├── api-contract.md         # Full API contract for Frontend + AI/Data team
+│   └── frontend-integration.md # Step-by-step integration guide for Frontend
 ├── smoke_test.py               # End-to-end API validation script
 ├── websocket_test.html         # Browser-based WebSocket test UI
 ├── requirements.txt
