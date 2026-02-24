@@ -7,8 +7,8 @@
 ---
 
 > **Who is this for?**
-> - **Frontend Team (Ryan)** — Sessions, Notes read/edit/export, Telemetry channels, WebSocket subscription
-> - **AI/Data Team (Brian, Yuyang, Mengzhen)** — POST notes, STT task lifecycle, telemetry latest value
+> - **Frontend Team ** — Sessions, Notes read/edit/export, Telemetry channels, WebSocket subscription
+> - **AI/Data Team ** — POST notes, STT task lifecycle, telemetry latest value
 
 ---
 
