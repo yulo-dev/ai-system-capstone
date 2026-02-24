@@ -1,7 +1,7 @@
 # ASTRA Backend
 
 **Advanced System for Testbed Recording and Analysis**
-NASA JPL Capstone Project - Backend Service
+Capstone Project - Backend Service
 
 ## Quick Start
 
@@ -25,21 +25,25 @@ uvicorn app.main:app --reload
 ## Project Structure
 
 ```
+
 astra-backend/
 ├── app/
-│   ├── main.py           # FastAPI application entry point
-│   ├── database.py       # In-memory storage (dev/test)
+│   ├── main.py                 # FastAPI entry
+│   ├── database.py             # in-memory storage (dev/test)
+│   ├── ws_manager.py           # centralized WS broadcast + event constants
 │   ├── routes/
-│   │   ├── sessions.py   # Session management
-│   │   ├── notes.py      # Notes CRUD + export
-│   │   ├── telemetry.py  # Telemetry ingestion & query
-│   │   └── websocket.py  # Real-time updates
-│   ├── schemas/
-│   │   └── schemas.py    # Pydantic models (API formats)
-│   └── models/           # Future: switch to other models
-├── smoke_test.py         # API validation script
-├── requirements.txt
-└── README.md
+│   │   ├── sessions.py         # Session management
+│   │   ├── notes.py            # notes CRUD + export
+│   │   ├── telemetry.py        # Telemetry ingestion & query
+│   │   ├── stt.py              # STT task lifecycle APIs
+│   │   └── websocket.py        # WS subscribe endpoint (Real-time updates)
+│   └── schemas/schemas.py      # Pydantic schemas (API formats)
+├── smoke_test.py               # API validation script (runs through endpoints)
+├── docs/
+│   ├── API_CONTRACT.md         # contract for FE + model team
+│   └── FRONTEND_INTEGRATION.md # “how to wire it up” for FE
+└── requirements.txt
+
 ```
 
 ## API Endpoints
