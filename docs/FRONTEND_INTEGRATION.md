@@ -1,6 +1,6 @@
 # Frontend Integration Guide
 
-**For:** Ryan (Frontend Lead)  
+**For:** Frontend Lead
 **Backend version:** 0.2.0  
 **Backend base URL:** `http://localhost:8000`  
 **Last updated:** February 2025
@@ -316,8 +316,3 @@ Enter a session ID and click Connect. Then create a note via Swagger UI or curl 
 | CORS error | Frontend port not in allow list | Tell Yulo to add your port |
 
 ---
-
-## Questions?
-
-Ping Yulo on Discord or check the full API spec in `docs/API_CONTRACT.md`.  
-Swagger UI (self-documenting, try requests live): **http://localhost:8000/docs**
